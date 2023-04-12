@@ -18,7 +18,7 @@ const ReadPosts = () => {
             const {data} = await supabase
             .from('cardposts')
             .select()
-            .order('created_at', { ascending: true })
+            .order('created_at', { ascending: false })
 
             setPosts(data);
         }

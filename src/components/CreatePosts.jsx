@@ -12,14 +12,6 @@ import Col from 'react-bootstrap/Col';
 const IMG_ACCESS = "35142330-c0597c6610859688bdd5ef48c";
 
 const CreatePost = async (post, setShow) => {
-    const fetchData = async () => {
-        if(post.imageQuery == "-1") return "../src/assets/smile.png"
-
-        const response = await fetch(`https://pixabay.com/api/?key=${IMG_ACCESS}&q=${post.imageQuery.replace(' ', '+')}&image_type=photo&pretty=true`)
-        const json = await response.json();
-
-        return json.hits[0].largeImageURL;
-    }
 
     await supabase
      .from('cardposts')
@@ -27,7 +19,6 @@ const CreatePost = async (post, setShow) => {
         title: post.title, 
         description: post.description, 
         username: post.username, 
-        image: await fetchData(),
         imageQuery: post.imageQuery,
         job: post.job,
     })

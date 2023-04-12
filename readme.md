@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDExMzllZGM4NzMwOWUyZTNmNjMwNzIxMGNmZThlY2I5NGUxZjdmOSZjdD1n/uHCdn3FZQqmkCp65Hc/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGJkYWJjOWNkM2UzNmNjNzE5YmEwZjA4OTk4ZWZkNzJjOGYyM2EwNiZjdD1n/o9cnuor5G6h0UB8z6S/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreentoGif  
